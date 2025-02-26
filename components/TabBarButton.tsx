@@ -1,13 +1,13 @@
 import { Pressable, StyleSheet } from "react-native";
 import React, { useEffect } from "react";
-import { icon } from "@/constants/Icons";
 import Animated, {
   interpolate,
   useAnimatedStyle,
   useSharedValue,
   withSpring,
 } from "react-native-reanimated";
-import { Colors } from "@/constants/Colors";
+import {icon} from "../constants/Icons";
+import {Colors} from "../constants/Colors";
 
 const TabBarButton = ({
   onPress,
