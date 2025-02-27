@@ -9,7 +9,7 @@ const Header = (props: Props) => {
     return (
         <View style={styles.container}>
             <View style={styles.userInfo}>
-                <Image source={require("../assets/image/alina.jpg")} style={styles.userImg}/>
+                <Image source={require("../assets/image/img.png")} style={styles.userImg}/>
                 <View style={{gap: 3}}>
                     <Text style={styles.welcomeTxt}>Welcome !!!</Text>
                     <Text style={styles.userName}>Sachini Madubhashini</Text>
