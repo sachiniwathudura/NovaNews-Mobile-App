@@ -13,12 +13,10 @@ const Page = () => {
                              resizeMode="cover">
                 <View style={styles.main}>
                     {/* Animated Title */}
-                    <Animated.Text style={styles.title} entering={FadeInRight.delay(300).duration(500)}>Stay
-                        Updated!</Animated.Text>
+                    <Animated.Text style={styles.title} entering={FadeInRight.delay(300).duration(500)}>Keep Up with the Latest!</Animated.Text>
 
                     {/* Animated Subtitle */}
-                    <Animated.Text style={styles.subtitle} entering={FadeInRight.delay(700).duration(500)}>Welcome to
-                        our NovaNews App
+                    <Animated.Text style={styles.subtitle} entering={FadeInRight.delay(700).duration(500)}>Explore NovaNews
                     </Animated.Text>
 
                     {/* Button Section */}
@@ -26,15 +24,15 @@ const Page = () => {
                         {/* Navigate to Home Screen */}
                         <Animated.View entering={FlipInEasyX.delay(600).duration(500)}
                                        exiting={FlipOutEasyX.delay(600).duration(500)}>
-                            <TouchableOpacity style={styles.button} onPress={() => router.replace("/(tabs)")}>
-                                <Text style={styles.buttonText}>Get Started</Text>
-                            </TouchableOpacity>
+                            {/*<TouchableOpacity style={styles.button} onPress={() => router.replace("/(tabs)")}>*/}
+                            {/*    <Text style={styles.buttonText}>Get Started</Text>*/}
+                            {/*</TouchableOpacity>*/}
                         </Animated.View>
 
                         {/* Navigate to Login Screen */}
                         <Animated.View entering={FlipInEasyX.delay(800).duration(500)}
                                        exiting={FlipOutEasyX.delay(800).duration(500)}>
-                            <TouchableOpacity style={styles.button} onPress={() => router.push("/login")}>
+                            <TouchableOpacity style={styles.button} onPress={() => router.replace("/login")}>
                                 <Text style={styles.buttonText}>Login</Text>
                             </TouchableOpacity>
                         </Animated.View>
