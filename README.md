@@ -43,32 +43,39 @@ Start the development server:
 npx expo start
 ```
 ## 📸 Screenshots
- <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 16px; text-align: center;">
-  <div style="flex: 1 1 300px; max-width: 300px;">
+ <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; text-align: center;">
+  <div style="flex: 1 1 180px; max-width: 180px;">
     <h3>Main Page</h3>
-    <img src="assets/screenshots/main.jpeg" alt="home page" style="width: 100%; height: auto; border: 1px solid #ccc; border-radius: 8px;">
+    <img src="assets/screenshots/main.jpeg" alt="home page" 
+         style="width: 100%; height: auto; border: 1px solid #ddd; border-radius: 6px; box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);">
   </div>
-  <div style="flex: 1 1 300px; max-width: 300px;">
+  <div style="flex: 1 1 180px; max-width: 180px;">
     <h3>Login Page</h3>
-    <img src="assets/screenshots/login.jpeg" alt="signup" style="width: 100%; height: auto; border: 1px solid #ccc; border-radius: 8px;">
+    <img src="assets/screenshots/login.jpeg" alt="signup" 
+         style="width: 100%; height: auto; border: 1px solid #ddd; border-radius: 6px; box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);">
   </div>
-  <div style="flex: 1 1 300px; max-width: 300px;">
+  <div style="flex: 1 1 180px; max-width: 180px;">
     <h3>Signup Page</h3>
-    <img src="assets/screenshots/signup.jpeg" alt="update profile" style="width: 100%; height: auto; border: 1px solid #ccc; border-radius: 8px;">
+    <img src="assets/screenshots/signup.jpeg" alt="update profile" 
+         style="width: 100%; height: auto; border: 1px solid #ddd; border-radius: 6px; box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);">
   </div>
-  <div style="flex: 1 1 300px; max-width: 300px;">
+  <div style="flex: 1 1 180px; max-width: 180px;">
     <h3>Home Page</h3>
-    <img src="assets/screenshots/news.jpeg" alt="dashboard" style="width: 100%; height: auto; border: 1px solid #ccc; border-radius: 8px;">
+    <img src="assets/screenshots/news.jpeg" alt="dashboard" 
+         style="width: 100%; height: auto; border: 1px solid #ddd; border-radius: 6px; box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);">
   </div>
-  <div style="flex: 1 1 300px; max-width: 300px;">
+  <div style="flex: 1 1 180px; max-width: 180px;">
     <h3>Search News Page</h3>
-    <img src="assets/screenshots/searchnews.jpeg" alt="add transaction" style="width: 100%; height: auto; border: 1px solid #ccc; border-radius: 8px;">
+    <img src="assets/screenshots/searchnews.jpeg" alt="add transaction" 
+         style="width: 100%; height: auto; border: 1px solid #ddd; border-radius: 6px; box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);">
   </div>
-  <div style="flex: 1 1 300px; max-width: 300px;">
+  <div style="flex: 1 1 180px; max-width: 180px;">
     <h3>Settings Page</h3>
-    <img src="assets/screenshots/setting.jpeg" alt="add transaction" style="width: 100%; height: auto; border: 1px solid #ccc; border-radius: 8px;">
+    <img src="assets/screenshots/setting.jpeg" alt="add transaction" 
+         style="width: 100%; height: auto; border: 1px solid #ddd; border-radius: 6px; box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);">
   </div>
 </div>
+
 
 
 ## 📝 Usage
